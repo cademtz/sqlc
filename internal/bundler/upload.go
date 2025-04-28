@@ -10,11 +10,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/info"
-	"github.com/sqlc-dev/sqlc/internal/plugin"
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
+	"github.com/cademtz/sqlc/internal/config"
+	"github.com/cademtz/sqlc/internal/info"
+	"github.com/cademtz/sqlc/internal/plugin"
+	"github.com/cademtz/sqlc/internal/quickdb"
+	pb "github.com/cademtz/sqlc/internal/quickdb/v1"
 )
 
 var ErrNoProject = errors.New(`project uploads require a cloud project

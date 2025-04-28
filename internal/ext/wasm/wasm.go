@@ -24,9 +24,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/sqlc-dev/sqlc/internal/cache"
-	"github.com/sqlc-dev/sqlc/internal/info"
-	"github.com/sqlc-dev/sqlc/internal/plugin"
+	"github.com/cademtz/sqlc/internal/cache"
+	"github.com/cademtz/sqlc/internal/info"
+	"github.com/cademtz/sqlc/internal/plugin"
 )
 
 var flight singleflight.Group

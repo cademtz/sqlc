@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/dbmanager"
-	"github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	"github.com/cademtz/sqlc/internal/config"
+	"github.com/cademtz/sqlc/internal/dbmanager"
+	"github.com/cademtz/sqlc/internal/migrations"
+	"github.com/cademtz/sqlc/internal/sql/sqlpath"
 )
 
 var createDBCmd = &cobra.Command{

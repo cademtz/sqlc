@@ -1,9 +1,9 @@
 package compiler
 
 import (
-	"github.com/sqlc-dev/sqlc/internal/metadata"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
+	"github.com/cademtz/sqlc/internal/metadata"
+	"github.com/cademtz/sqlc/internal/sql/ast"
+	"github.com/cademtz/sqlc/internal/sql/catalog"
 )
 
 type Function struct {

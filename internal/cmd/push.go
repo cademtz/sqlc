@@ -8,9 +8,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/sqlc-dev/sqlc/internal/bundler"
-	"github.com/sqlc-dev/sqlc/internal/compiler"
-	"github.com/sqlc-dev/sqlc/internal/config"
+	"github.com/cademtz/sqlc/internal/bundler"
+	"github.com/cademtz/sqlc/internal/compiler"
+	"github.com/cademtz/sqlc/internal/config"
 )
 
 func init() {
